@@ -33,3 +33,7 @@ public class E03_Initialization {
         dp.print();
     }
 }
+/* Output:
+i = 0
+i = 47
+*/

@@ -26,7 +26,7 @@ class Extended2 extends WithMethods{
 public class E04_AbstractBase {
     public static void test1(NoMethods nm){
         // must downcast to access f():
-        // 向下转型
+        // 向下转型调用f()
         ((Extended1)nm).f();
     }
     public static void test2(WithMethods wm){
@@ -41,3 +41,7 @@ public class E04_AbstractBase {
     }
 
 }
+/*output:
+Extended1.f
+Extended2.f
+ */
